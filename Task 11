@@ -1,0 +1,13 @@
+namespace IJunior_Task11
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int number = 5; number <= 96; number += 7)
+            {
+                Console.WriteLine(number);
+            }
+        }
+    }
+}
