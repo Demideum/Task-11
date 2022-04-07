@@ -3,12 +3,14 @@ namespace IJunior_Task11
     internal class Program
     {
         static void Main(string[] args)
-        {
-            int drugIntakeDay;
-            
-            for (drugIntakeDay = 5; drugIntakeDay <= 96; drugIntakeDay += 7)
+        {           
+            int drugStartedDay = 5;
+            int drugNumberDays = 96;
+            int drugFrequencyDays = 7;
+
+            for (int i = drugStartedDay; i <= drugNumberDays; i += drugFrequencyDays)
             {
-                Console.WriteLine(drugIntakeDay);
+                Console.WriteLine(i);
             }
         }
     }
